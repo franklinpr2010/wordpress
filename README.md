@@ -35,6 +35,12 @@ https://drive.google.com/open?id=1d-Wv8uA6lzyBoS-fJRgti4Z_29Sm9X-EN6N1q46z7Zw
 
 https://www.apachefriends.org/download.html
 
+### Server do Xamp
+
+C:\xampp\htdocs
+
+
+
 
 
 
