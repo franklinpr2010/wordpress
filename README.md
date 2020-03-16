@@ -39,6 +39,10 @@ https://www.apachefriends.org/download.html
 
 C:\xampp\htdocs
 
+Depois de acessar o xamp e iniciar todos os servidores digite:  
+
+localhost/nomedapastadentrodohtdocs
+
 
 
 
