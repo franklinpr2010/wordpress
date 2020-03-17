@@ -63,7 +63,7 @@ Depois logue em:
 
 > http://localhost/wpcurso
 
-## É obrigatório criar o index.php e o style.css.
+### É obrigatório criar o index.php e o style.css.
 
 
 
