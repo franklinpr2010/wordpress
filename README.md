@@ -39,13 +39,37 @@ FAQ
 
 > C:\xampp\htdocs
 
-Depois de acessar o xamp e iniciar todos os servidores digite:  
+### Depois de acessar o xamp e iniciar todos os servidores digite:  
 
 > localhost/nomedapastadentrodohtdocs
 
-Baixar o wordpress
+### Crie o banco
+
+> http://localhost/phpmyadmin/
+
+### Baixar o wordpress
 
 > https://br.wordpress.org/download/
+
+Coloque dentro da pasta htdocs e renomeie para wpcurso.
+
+Após isso acesse essa pasta e configure o wordpress.
+
+### Coloque o template baixado dentro dessa pasta.
+
+> C:\xampp\htdocs\wpcurso\wp-content\themes
+
+Depois logue em:
+
+
+
+
+
+
+
+
+
+
 
 
 
