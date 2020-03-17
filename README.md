@@ -39,27 +39,56 @@ FAQ
 
 > C:\xampp\htdocs
 
-### Depois de acessar o xamp e iniciar todos os servidores digite:  
+Depois de acessar o xamp e iniciar todos os servidores digite:  
 
 > localhost/nomedapastadentrodohtdocs
 
-### Crie o banco
-
-> http://localhost/phpmyadmin/
-
-### Baixar o wordpress
-
-> https://br.wordpress.org/download/
+Baixar o wordpress
+https://br.wordpress.org/download/
 
 Coloque dentro da pasta htdocs e renomeie para wpcurso.
 
 Após isso acesse essa pasta e configure o wordpress.
 
-### Coloque o template baixado dentro dessa pasta.
-
-> C:\xampp\htdocs\wpcurso\wp-content\themes
+Coloque o template baixado dentro dessa pasta.
+C:\xampp\htdocs\wpcurso\wp-content\themes
 
 Depois logue em:
+
+http://localhost/wpcurso
+
+É obrigatório criar o index.php e o style.css.
+
+Dentro do Style.css, para aparecer informações mais detalhada digite:   
+
+```
+/*
+Theme Name: Wordpress
+Author: Franklin Roza
+Description: Simples tema criado para aprender.
+Version: 1.0
+*/
+```
+
+Criar um arquivo e nomear para screenshot.png
+
+Esse arquivo tem que ser 1200 x 900px
+
+Redimensionar imagens
+
+https://www.iloveimg.com/pt
+
+Depois de redimensionar a imagem ative a página.
+
+
+
+
+
+
+
+
+
+
 
 
 
