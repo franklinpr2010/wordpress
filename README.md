@@ -107,3 +107,12 @@ Depois de redimensionar a imagem ative a página.
 
 
 
+
+
+
+
+
+
+
+
+
