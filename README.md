@@ -61,6 +61,12 @@ Após isso acesse essa pasta e configure o wordpress.
 
 Depois logue em:
 
+> http://localhost/wpcurso
+
+## É obrigatório criar o index.php e o style.css.
+
+
+
 
 
 
