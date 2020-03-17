@@ -90,17 +90,6 @@ Depois de redimensionar a imagem ative a página.
 
 
 
-> http://localhost/wpcurso
-
-### É obrigatório criar o index.php e o style.css.
-
-
-
-
-
-
-
-
 
 
 
