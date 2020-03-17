@@ -97,7 +97,7 @@ Após criar o functions.php
 
 <?php 
 
-```` 
+```
 
 function load_scripts() {
     //Colocando na fila uma folha de estilo, prieiro parametro é um identificador, o segundo é o local
