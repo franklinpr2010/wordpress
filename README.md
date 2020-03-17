@@ -81,18 +81,55 @@ https://www.iloveimg.com/pt
 Depois de redimensionar a imagem ative a página.
 
 
+### Enfileramento - Reparar o css do tema quebrado.
+### Consiste em colocar os arquivos css e js na fila
 
-
-
-
-
-
-
-
+> http://localhost/wpcurso/wp-admin/themes.php
 
 > http://localhost/wpcurso
 
-### É obrigatório criar o index.php e o style.css.
+Criar no index.php o header e o footer. (Retirar todo o css e javascript)
+
+<?php wp_head(); ?>
+<?php wp_footer(); ?>
+
+Após criar o functions.php
+
+<?php 
+
+```` 
+
+function load_scripts() {
+    //Colocando na fila uma folha de estilo, prieiro parametro é um identificador, o segundo é o local
+    wp_enqueue_style('bootstrap-min', get_template_directory_uri() . '/css/bootstrap.min.css');
+    wp_enqueue_style('fancybox', get_template_directory_uri() . 'css/jquery.fancybox.css');
+    wp_enqueue_style('main', get_template_directory_uri() . '/css/main.css');
+    wp_enqueue_style('responsive', get_template_directory_uri() . '/css/responsive.css');
+    wp_enqueue_style('animate-min', get_template_directory_uri() . '/css/animate.min.css');
+    wp_enqueue_style('fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+}
+
+
+//para que a função load_scripts seja enfileirada, o primeiro parametro é chamado de gancho
+add_action('wp_enqueue_scripts', 'load_scripts' );
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
