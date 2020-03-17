@@ -95,9 +95,11 @@ Criar no index.php o header e o footer. (Retirar todo o css e javascript)
 
 Após criar o functions.php
 
-<?php 
 
 ```
+<?php 
+
+
 function load_scripts() {
     //Colocando na fila uma folha de estilo, prieiro parametro é um identificador, o segundo é o local
     wp_enqueue_style('bootstrap-min', get_template_directory_uri() . '/css/bootstrap.min.css');
